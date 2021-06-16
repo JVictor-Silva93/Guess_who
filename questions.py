@@ -1,6 +1,3 @@
-import random
-# from questions import question_generator
-
 NAMES = ("Michael", "James", "Oscar", "Fred", "Steve", "Ace", "Bill", "Marcus", "Brian", "Jeremy",
          "Eliza", "Faith", "Sally", "Maria", "Jacqueline", "Cheri", "Ashley", "Emily", "Bianca", "Alice")
 GENDERS = ("male", "female")
@@ -9,20 +6,6 @@ HAIR_COLORS = ("black", "red", "blonde", "grey", "brown")
 RACE = ("white", "black", "hispanic", "asian")
 FACIAL_HAIR = ("none", "mustache", "beard")
 JEWELRY = ("necklace", "ear rings", "glasses", "none")
-
-
-class People():
-    def __init__(self, name, gender, eyes, hair, race, facial, jewelry):
-        self.name = name
-        self.gender = gender
-        self.eyes = eyes
-        self.hair = hair
-        self.race = race
-        self.facial = facial
-        self.jewelry = jewelry
-
-    def create_person(self):
-        pass
 
 question_bank = [" "]
 
