@@ -1,6 +1,6 @@
-GUESS WHO CHECKLIST - USER VS. COMPUTER VERSION
+# GUESS WHO CHECKLIST - USER VS. COMPUTER VERSION
 
-Requirements:
+## Requirements:
 
       24 people - same on each side
       
@@ -37,7 +37,7 @@ Requirements:
       NPC random question picker type of function
       
       
-Round Example:
+## Round Example:
 
       Player picks - (Christy, Female, blonde, blue eyes, white skin, no glasses, no facial hair, yes jewelry)
       
