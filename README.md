@@ -1,60 +1,21 @@
-# GUESS WHO CHECKLIST - USER VS. COMPUTER VERSION
+# GUESS WHO? - [USER VS. COMPUTER VERSION]
 
-## Requirements:
+## About
+Guess Who? is a classic fun game for two players.
 
-      24 people - same on each side
-      
-      Player traits, (Gender, Hair color, Eye color, Skin color, Glasses or no, Facial hair or no, jewerly or no)
-      
-      Player gets to pick one character*
-      
-      NPC picks one character randomly*
-      
-      *This card represents the character your opponent has to guess and the character you have to answer questions about.
-      
-      alternate turns
-      
-      Initial turn randomizer function
-      
-      YES (True) or NO (False) questions only! (No open ended questions!!!)
-      
-      Character guess is considered a YES/NO question
-      
-      List of questions*
-      
-      List of questions is removed once asked or is a question solves for the feature*
-      
-      *has to relate to each person's characteristics - feature and description (Example: feature = eyes, and description = blue)
-      
-      List of characters
-      
-      Function to show remaining people
-      
-      Features = (Name, gender, hair color, eye color, skin color, glasses, facial hair, jewelry)
-      
-      Winning coonditions
-      
-      NPC random question picker type of function
-      
-      
-## Round Example:
+## How To Play ?
+Each player starts the game with a board that includes cartoon image of 24 people and their first name with <br> all the images standing up. Each player selects a card of their choice from a separate pile of cards containing the
+same 24 images. The object of the game is to be the first to determine which card one's opponent has selected. Players alternate asking various yes or no questions to eliminate candidates, such as "Does your person wear glasses?" The player will then eliminate candidates (based on the opponent's response) by flipping those images down until only one is left. <br><br> Well-crafted questions allow players to eliminate one or more possible cards. <br> Questions might include:
 
-      Player picks - (Christy, Female, blonde, blue eyes, white skin, no glasses, no facial hair, yes jewelry)
-      
-      NPC randomly picks - (Bob, Male, brunette, brown eyes, brown skin, yes glasses, yes facial hair, no jewelry)
-      
-      Randomize turns!
-      
-      Player may go first - picks from list of questions
-            (asks, does NPC's character wear glasses?)
-            
-      NPC answers yes or no!
-            (answer yes!) *IN THIS CASE THE PLAYER WOULD HAVE HIS LIST SHORTENED TO REMOVE PLAYERS WITHOUT GLASSES
-            
-      NPC asks question - from same questions list 
-      
-      
-      
-When player or computer guesses the other's character correctly they win, or if they cut down the list to one!
-      
+1. *"Does your person wear a hat?"*
+2. *"Does your person wear glasses?"*
+3. *"Does your person have a big nose?"* **etc.**
 
+## About the creator
+Guess Who? was developed by **Codethislab**. <br> 
+To have a taste of the game head to the below website!
+> ***https://poki.com/en/g/guess-who***
+
+## Note
+This is just a learning project! So we are not supposed to build a GUI version
+but a **console** based one. The contributors are advised to pay a visit to the above site once they go through the [How To Play?](#how-to-play) section so that they can have a better understanding of how the game works. Happy learning!
