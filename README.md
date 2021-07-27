@@ -18,4 +18,4 @@ To have a taste of the game head to the below website!
 
 ## Note
 This is just a learning project! So we are not supposed to build a GUI version
-but a **console** based one. The contributors are advised to pay a visit to the above site once they go through the [How To Play?](#how-to-play) section so that they can have a better understanding of how the game works. Happy learning!
+but a **console** based one. The contributors are advised to pay a visit to the above site once they go through the [How To Play?](#how-to-play-) section so that they can have a better understanding of how the game works. Happy learning!
