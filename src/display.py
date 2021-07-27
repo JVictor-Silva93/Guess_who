@@ -42,11 +42,11 @@ for i, card in enumerate(cards_data):
 
     if i % 6 == 0 and i > 0:
         layouts[-1].split_row(*tables)
-        
+
         name = f"{i}"
         tables = []
         layouts.append(Layout(name=name))
-        
+
     tables.append(table)
 
 layouts[-1].split_row(*tables)

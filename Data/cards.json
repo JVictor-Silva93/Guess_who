@@ -5,7 +5,8 @@
         "bald": false,
         
         "has": {"beard": true,
-                "jewellery": true},
+                "moustache": false,
+                "jewellery": false},
 
         "color": {"eyes": "blue",
                   "hair": "black"}
@@ -15,8 +16,7 @@
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": true},
+        "has": {"jewellery": true},
         
         "color": {"eyes": "blue",
                   "hair": "blonde"}
@@ -27,6 +27,7 @@
         "bald": true,
         
         "has": {"beard": false,
+                "moustache": false,
                 "jewellery": false},
 
         "color": {"eyes": "brown"}
@@ -36,29 +37,28 @@
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": true},
+        "has": {"jewellery": false},
         
-        "color": {"eyes": "black",
-                  "hair": "black"}
+        "color": {"eyes": "blue",
+                  "hair": "blonde"}
     },
     {
         "name": "Bob",
         "gender": "male",
         "bald": true,
         
-        "has": {"beard": true,
+        "has": {"beard": false,
+                "moustache": true,
                 "jewellery": false},
 
-        "color": {"eyes": "blue"}
+        "color": {"eyes": "green"}
     },
     {
         "name": "Evelyn",
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": false},
         
         "color": {"eyes": "green",
                   "hair": "black"}
@@ -69,9 +69,10 @@
         "bald": false,
         
         "has": {"beard": true,
-                "jewellery": true},
+                "moustache": true,
+                "jewellery": false},
 
-        "color": {"eyes": "blue",
+        "color": {"eyes": "black",
                   "hair": "black"}
     },
     {
@@ -79,11 +80,10 @@
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": true},
         
         "color": {"eyes": "blue",
-                  "hair": "blonde"}
+                  "hair": "black"}
     },
     {
         "name": "Carl",
@@ -91,65 +91,64 @@
         "bald": false,
         
         "has": {"beard": true,
+                "moustache": true,
                 "jewellery": false},
 
-        "color": {"eyes": "blue",
-                  "hair": "black"}
+        "color": {"eyes": "black",
+                  "hair": "red"}
     },
     {
         "name": "Lisa",
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": true},
         
-        "color": {"eyes": "blue",
-                  "hair": "blonde"}
+        "color": {"eyes": "green",
+                  "hair": "black"}
     },
     {
         "name": "Rick",
         "gender": "male",
-        "bald": false,
+        "bald": true,
         
         "has": {"beard": true,
-                "jewellery": false},
+                "moustache": false,
+                "jewellery": true},
 
-        "color": {"eyes": "blue",
-                  "hair": "black"}
+        "color": {"eyes": "blue"}
     },
     {
         "name": "Jisoo",
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": false},
         
-        "color": {"eyes": "blue",
-                  "hair": "blonde"}
+        "color": {"eyes": "black",
+                  "hair": "black"}
     },
     {
         "name": "Harris",
         "gender": "male",
         "bald": false,
         
-        "has": {"beard": true,
+        "has": {"beard": false,
+                "moustache": true,
                 "jewellery": true},
 
-        "color": {"eyes": "blue",
-                  "hair": "black"}
+        "color": {"eyes": "black",
+                  "hair": "red"}
     },
     {
         "name": "Anya",
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": false},
         
-        "color": {"eyes": "blue",
-                  "hair": "blonde"}
+        "color": {"eyes": "black",
+                  "hair": "red"}
     },
     {
         "name": "Brock",
@@ -157,31 +156,32 @@
         "bald": false,
         
         "has": {"beard": true,
+                "moustache": true,
                 "jewellery": false},
 
-        "color": {"eyes": "blue",
-                  "hair": "black"}
+        "color": {"eyes": "black",
+                  "hair": "red"}
     },
     {
         "name": "Mitsey",
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": true},
         
-        "color": {"eyes": "blue",
-                  "hair": "blonde"}
+        "color": {"eyes": "green",
+                  "hair": "black"}
     },
     {
         "name": "Ash",
         "gender": "male",
-        "bald": false,
+        "bald": true,
         
-        "has": {"beard": true,
-                "jewellery": false},
+        "has": {"beard": false,
+                "moustache": true,
+                "jewellery": true},
 
-        "color": {"eyes": "blue",
+        "color": {"eyes": "black",
                   "hair": "black"}
     },
     {
@@ -189,8 +189,7 @@
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": true},
         
         "color": {"eyes": "blue",
                   "hair": "blonde"}
@@ -200,10 +199,11 @@
         "gender": "male",
         "bald": false,
         
-        "has": {"beard": true,
-                "jewellery": true},
+        "has": {"beard": false,
+                "moustache": false,
+                "jewellery": false},
 
-        "color": {"eyes": "blue",
+        "color": {"eyes": "black",
                   "hair": "black"}
     },
     {
@@ -211,21 +211,21 @@
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": false},
         
-        "color": {"eyes": "blue",
-                  "hair": "blonde"}
+        "color": {"eyes": "green",
+                  "hair": "black"}
     },
     {
         "name": "Frank",
         "gender": "male",
         "bald": false,
         
-        "has": {"beard": true,
+        "has": {"beard": false,
+                "moustache": false,
                 "jewellery": false},
 
-        "color": {"eyes": "blue",
+        "color": {"eyes": "green",
                   "hair": "black"}
     },
     {
@@ -233,8 +233,7 @@
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": false,
-                "jewellery": false},
+        "has": {"jewellery": false},
         
         "color": {"eyes": "blue",
                   "hair": "blonde"}
@@ -245,20 +244,20 @@
         "bald": false,
         
         "has": {"beard": true,
+                "moustache": false,
                 "jewellery": false},
 
         "color": {"eyes": "blue",
-                  "hair": "black"}
+                  "hair": "blonde"}
     },
     {
         "name": "Myla",
         "gender": "female",
         "bald": false,
         
-        "has": {"beard": true,
-                "jewellery": true},
+        "has": {"jewellery": true},
         
-        "color": {"eyes": "blue",
-                  "hair": "blonde"}
+        "color": {"eyes": "black",
+                  "hair": "black"}
     }
 ]
