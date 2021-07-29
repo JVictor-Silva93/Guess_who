@@ -1,55 +1,37 @@
 """
     Title: Guess Who [Human VS Computer]
     Contributors: Check on GitHub
+
+    Guess Who? is a classic fun game for two players.
 """
-import sys
-from os import system
+
 from time import sleep
-from .display import MENU
+from .helper import (LINE,
+                     show_menu,
+                     show_about_page,
+                     show_credits_page,
+                     exit_game,
+                     clear_screen)
 
 
-# Gloabal Variables
-LINE = "=" * 66
-
-
-# TODO: Complete below functions
-
-
-def start_game(): ...
-def show_tutorial(): ...
-def show_credits(): ...
-
-
-def exit_game():
-    """Exit the game!"""
-
-    print(f"Thanks for playing!\n{LINE}")
-    sleep(0.4)
-    sys.exit()
-
-
-def clear_screen():
+def start_game():
     """
-        This function uses the system function from os to
-        clear the console screen. It passes 'clear' or 'cls'
-        as the arguments depending on the OS.
+        Handle the game
     """
 
-    return system("cls") if sys.__name__ == "nt" else system("clear")
 
-
-def main():
+def main() -> None:
     """Main function"""
 
     first_option = "Start Game"
     funcs = [start_game,
-             show_tutorial,
-             show_credits,
+             show_about_page,
+             show_credits_page,
              exit_game]
 
     while True:
         clear_screen()
-        print(MENU.format(first_option))
+        show_menu(first_option=first_option)
         option = input("Choose an option >>> ")
 
         if option in ("1", "2", "3", "4"):
@@ -60,7 +42,8 @@ def main():
             if option == "1":
                 first_option = "Play Again"
 
-            # Call the desired function
+            # Clear screen and call the desired function
+            clear_screen()
             funcs[int(option) - 1]()
 
         else:
