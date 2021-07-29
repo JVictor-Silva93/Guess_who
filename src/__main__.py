@@ -13,7 +13,7 @@ from .helper import (LINE,
                      exit_game,
                      clear_screen)
 
-
+#making comments
 def start_game():
     """
         Handle the game
