@@ -1,7 +1,6 @@
 """
 Classes.py
 """
-# from random import choice
 
 
 class Card:
@@ -19,16 +18,3 @@ class Card:
         "Return the printable representation of a card"
 
         return f"{self.__class__.__name__}({vars(self)})"
-
-
-# class Player:
-#     """Model a player"""
-
-#     def __init__(self, cards, is_human=True) -> None:
-#         self.cards = cards
-
-#         if not is_human:
-#             self.secret_card = choice(self.cards)
-#         else:
-#             # Call a function to get human player's input
-#             pass
