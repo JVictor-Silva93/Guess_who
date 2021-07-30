@@ -20,8 +20,6 @@ To have a taste of the game head to the below website!
 This is just a learning project! So we are not supposed to build a GUI version
 but a **console** based one. The contributors are advised to pay a visit to the above site once they go through the [How To Play?](#how-to-play-) section so that they can have a better understanding of how the game works. Happy learning!
 
-### CODE OF CONDUCT [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-
 ### How to contribute ?
 - Take a look at our [CODE_OF_CONDUCT](docs/CODE_OF_CONDUCT.md).
 - Read the [CONTRIBUTING.md](docs/CONTRIBUTING.md) file and get started!
