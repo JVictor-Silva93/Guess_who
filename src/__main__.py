@@ -2,24 +2,47 @@
     Title: Guess Who [Human VS Computer]
     Contributors: Check on GitHub
 
-    Guess Who? is a classic fun game for two players. //
+    Guess Who? is a classic fun game for two players.
 """
 
+import json
 from time import sleep
-from .helper import (LINE,
-                     show_menu,
-                     show_about_page,
-                     show_credits_page,
-                     exit_game,
-                     clear_screen)
+from .display import (LINE,
+                      show_cards,
+                      show_questions,
+                      show_menu,
+                      show_about_page,
+                      show_credits_page)
+from .helper import (clear_screen,
+                     exit_game)
+from .classes import Player
 
-# making comments
+##################################################################
+# Import cards from cards.json and questions from questions.json
+##################################################################
+with open("Data/cards.json") as cards_json:
+    cards_list = json.load(cards_json)
+
+with open("Data/questions.json") as questions_json:
+    questions_list = json.load(questions_json)
+##################################################################
 
 
 def start_game():
     """
         Handle the game
     """
+    ########################################################
+    # The below function call is just for testing purpose
+    ########################################################
+    player = Player(questions=questions_list[:],
+                    cards=cards_list[:],
+                    secret_card=cards_list[0])
+
+    show_cards(player)
+    show_questions(player)
+    input()
+    ########################################################
 
 
 def main() -> None:
