@@ -2,7 +2,7 @@
     Title: Guess Who [Human VS Computer]
     Contributors: Check on GitHub
 
-    Guess Who? is a classic fun game for two players.
+    Guess Who? is a classic fun game for two players. //
 """
 
 from time import sleep
@@ -12,6 +12,8 @@ from .helper import (LINE,
                      show_credits_page,
                      exit_game,
                      clear_screen)
+
+# making comments
 
 
 def start_game():
