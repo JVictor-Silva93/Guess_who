@@ -4,39 +4,7 @@
 import sys
 from os import system
 from time import sleep
-from .display import (MENU,
-                      ABOUT,
-                      CREDITS)
-
-# Global variables
-LINE = "=" * 66
-
-
-def show_menu(first_option) -> None:
-    """
-        Display the home page
-
-    """
-
-    print(MENU.format(first_option))
-
-
-def show_about_page() -> None:
-    """
-        Display the about page
-    """
-
-    print(ABOUT)
-    input()
-
-
-def show_credits_page() -> None:
-    """
-        Display the credits page
-    """
-
-    print(CREDITS)
-    input()
+from .display import LINE
 
 
 def exit_game() -> None:
@@ -44,7 +12,7 @@ def exit_game() -> None:
         Exit the game!
     """
 
-    print(f"{LINE}\n\t\t\t|Thanks for playing!|\n{LINE}")
+    print(f"{LINE}\n\t\t\t\t\t\t\t\t\t|Thanks for playing!|\n{LINE}")
     sleep(0.4)
     sys.exit()
 
