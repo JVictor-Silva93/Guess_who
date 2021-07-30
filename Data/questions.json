@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "attr": "eyes",
+        "question": "Does your character have blue eyes?"
+    },
+    {
+        "id": 2,
+        "attr": "eyes",
+        "question": "Does your character have green eyes?"
+    },
+    {
+        "id": 3,
+        "attr": "eyes",
+        "question": "Does your character have black eyes?"
+    },
+    {
+        "id": 4,
+        "attr": "bald",
+        "question": "Is your character bald?"
+    },
+    {
+        "id": 5,
+        "attr": "gender",
+        "question": "Is your character male?"
+    }
+]

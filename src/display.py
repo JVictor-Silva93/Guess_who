@@ -2,45 +2,78 @@
     No Docstring yet!
 """
 
+LINE = "=" * 175
 
 MENU = """
-==================================================================
-                           [GUESS WHO]                   [v0.01]
-==================================================================
-                       [1] {}
-                       [2] About Game
-                       [3] Credits
-                       [4] Quit
-=================================================================="""
+{}
+\t\t\t\t\t\t\t\t\t\t[GUESS WHO]\t\t\t\t\t\t\t\t\t\t[v0.01]
+{}
+\t\t\t\t\t\t\t\t\t     [1] {}
+\t\t\t\t\t\t\t\t\t     [2] About Game
+\t\t\t\t\t\t\t\t\t     [3] Credits
+\t\t\t\t\t\t\t\t\t     [4] Quit
+{}"""
 
-CREDITS = """
-==================================================================
-                         [CREDITS]
-==================================================================
-            Currently there is nothing in here!
-=================================================================="""
+CREDITS = f"""
+{LINE}
+\t\t\t\t\t\t\t\t\t\t[CREDITS]
+{LINE}
+\t\t\t\t\t\t\t\t  Currently there is nothing in here!
+{LINE}"""
 
-ABOUT = """
-==================================================================
-                            [ABOUT]
-==================================================================
-Guess Who? is a classic fun game for two players.
-
-Each player starts the game with a board that includes cartoon
-image of 24 people and their first name with all the images stan-
--ding up. Eachplayer selects a card of their choice from a separ-
--ate pile of cards containing the same 24 images. The objective of 
-the game is to be the first to determine which card one's opponent 
-has selected. Players alternate asking various yes or no questions 
-to eliminate candidates, such as "Does your person wear glasses?" 
-The player will then eliminate candidates (based on the opponent's 
-response) by flipping those images down until only one is left.
+ABOUT = f"""
+{LINE}
+\t\t\t\t\t\t\t\t\t\t[ABOUT]
+{LINE}
+\t\t\t\t\t\t\t\t  Currently there is nothing in here!
+{LINE}"""
 
 
-Well-crafted questions allow players to eliminate one or more pos-
--sible cards. Questions might include:
+def show_questions(player):
+    """
+        Display available questions of player
+    """
+    print(LINE)
+    print("\t\t\t\t\t\t\t\t\t\t[QUESTIONS]")
+    print(LINE)
+    for question in player.questions:
+        print(f"[{question['id']}] {question['question']}")
+    print(LINE)
 
-"Does your person wear a hat?"
-"Does your person wear glasses?"
-"Does your person have a big nose?" etc.
-=================================================================="""
+
+def show_cards(player):
+    """
+        Display available cards of player
+    """
+    print(LINE)
+    print("\t\t\t\t\t\t\t\t\t\t[CARDS]")
+    print(LINE)
+    print(*player.cards, sep="\n")
+    print(LINE)
+
+
+def show_menu(first_option) -> None:
+    """
+        Display the home page
+
+    """
+
+    print(MENU.format(LINE, LINE, first_option, LINE))
+
+
+def show_about_page() -> None:
+    """
+        Display the about page
+    """
+
+    print(ABOUT)
+    input()
+
+
+def show_credits_page() -> None:
+    """
+        Display the credits page
+    """
+
+    print(CREDITS)
+    input()
