@@ -1,5 +1,5 @@
 """
-    No Docstring yet!
+    Contains display-specific functions
 """
 
 LINE = "=" * 175

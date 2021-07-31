@@ -11,11 +11,18 @@ from .classes import Player
 ##################################################################
 # Import cards from cards.json and questions from questions.json
 ##################################################################
-with open("Data/cards.json") as cards_json:
-    cards_list = json.load(cards_json)
+try:
+    with open("Data/cards.json") as cards_json:
+        cards_list = json.load(cards_json)
 
-with open("Data/questions.json") as questions_json:
-    questions_list = json.load(questions_json)
+    with open("Data/questions.json") as questions_json:
+        questions_list = json.load(questions_json)
+except FileNotFoundError:
+    print(LINE)
+    print(f"{' '*70}[ERROR] Missing file(s) in ./Data directory.")
+    print(f"{' '*75}Try downloading the repo again!")
+    input(LINE)
+    sys.exit()
 ##################################################################
 
 
@@ -73,7 +80,7 @@ def ask_question(player):
 
 def get_human_res(question):
     """
-        ...
+        Get response from human player
     """
     print(f"{LINE}\n[*] Computer's question: {question['question']}")
     while True:
@@ -92,7 +99,7 @@ def get_human_res(question):
 
 def get_player_res(player, question):
     """
-        ...
+        Get player's response
     """
     if player.human:
         res = get_human_res(question)
@@ -115,7 +122,7 @@ def get_player_res(player, question):
 
 def remove_cards(player, player_res, question_value, card_attr, dict_key=None):
     """
-        ...
+        Remove cards from questioners list based on other player's response
     """
 
     remaining = []
@@ -138,7 +145,7 @@ def remove_cards(player, player_res, question_value, card_attr, dict_key=None):
 
 def handle_question(questioner, answerer, question):
     """
-        ...
+        Handle question
     """
     # Get player's response to the asked question
     player_res = get_player_res(answerer, question)
