@@ -72,4 +72,4 @@ class Player:
         return {}
 
     def __repr__(self) -> str:
-        return f"{self.__class__.__name__}{tuple(vars(self))}"
+        return f"{self.__class__.__name__}{tuple(vars(self).keys())}"

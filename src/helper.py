@@ -2,6 +2,7 @@
     Contains some functions required by other modules
 """
 import sys
+import os
 import json
 from os import system
 from time import sleep
@@ -181,4 +182,4 @@ def clear_screen() -> int:
         as the arguments depending on the OS.
     """
 
-    return system("cls") if sys.__name__ == "nt" else system("clear")
+    return system("cls") if os.name == "nt" else system("clear")
